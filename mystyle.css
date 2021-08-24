@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(2,5,23);
+  margin-top: 100px;
+ margin-bottom: 100px;
+ margin-right: 150px;
+ margin-left: 150px;
+}
+h1 {
+  color: blue;
+}
+.intro_p {
+  color: rgb(46, 156, 202);
+  
+}
+div {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.nav-link{
+  color: rgb(230,121,67);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.my_full{
+  height:100vh;
+}
+.my_h1{
+  color: rgb(46, 156, 202);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90px;
+   text-align: center;
+}
+.my_name{
+  rgb(230,121,67);
+}
+.my_list{
+  list-style-type: none;
+  text-align: center;
+  color: rgb(46, 156, 202);
+}
+.my_list1{
+    display: inline;
+    padding: 20px;
+    font-size: 18px;
+
+}
+.intro_p{
+  text-align: center;
+  font-size: 18px;
+}
+.about_div{
+  height:100vh;
+}
+.about_h2{
+  color: rgb(230,121,67);
+}
