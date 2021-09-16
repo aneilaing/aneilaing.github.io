@@ -1,59 +1,203 @@
-body {
+/* body{
   background-color: rgb(2,5,23);
-  margin-top: 100px;
- margin-bottom: 100px;
- margin-right: 150px;
- margin-left: 150px;
-}
-h1 {
-  color: blue;
-}
-.intro_p {
-  color: rgb(46, 156, 202);
-
-}
-div {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-}
-
-.nav-link{
-  color: rgb(230,121,67);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
+  orange:rgb(230,121,67);
+  burgundy: rgb(63,19,50);
+  navy: rgb(2,5,23);
+  blue: rgb(46, 156, 202);
+} */
 .my_full{
-  height:100vh;
+  /* background-color: white; */
+  float: left;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 50vw;
+  margin-left: 20px;
+
+
+}
+.mynav_bar{
+  padding: 20px;
+
 }
 .my_h1{
   color: rgb(46, 156, 202);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 90px;
-   text-align: center;
+  font-family: 'Tomorrow', Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  /* text-align: left; */
+  padding: 20px;
 }
-.my_name{
-  rgb(230,121,67);
+
+.my_front_page{
+  height:100vh;
+  background-image: url('anei_pic_edited3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.5;
+  z-index: 0;
 }
-.my_list{
-  list-style-type: none;
-  text-align: center;
-  color: rgb(46, 156, 202);
+.project_btn{
+margin:10px;
+background-color: rgb(46, 156, 202);
+color: rgb(2,5,23);
+font-family: 'Tomorrow', Arial, Helvetica, sans-serif;
+font-size: 20px;
 }
-.my_list1{
-    display: inline;
-    padding: 20px;
-    font-size: 18px;
+.project_btn:hover{
+background-color: rgb(230,121,67);
+color: rgb(2,5,23);
 
 }
-.intro_p{
-  text-align: center;
-  font-size: 18px;
+.soft_eng{
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: inherit;
+  color: rgb(46, 156, 202);
+}
+.nav-link{
+  color: rgb(230,121,67);
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.nav-link:hover{
+  color: rgb(46, 156, 202);
 }
 .about_div{
-  height:100vh;
+  background-color: white;
+  color: rgb(2,5,23);
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+  /* font-size: 20px; */
+  padding-top: 40px;
 }
-.about_h2{
+.about_h2,.projects_h2,.contact_h2{
   color: rgb(230,121,67);
+  font-family: 'Tomorrow', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+.pro_lang{
+  column-count: 2;
+}
+table, th, td {
+  padding: 20px;
+}
+td{
+  width: 50%;
+  vertical-align: top
+}
+.background_filter{
+  background-color: rgb(2,5,23);
+}
+.my_projects{
+padding-top: 40px;
+}
+.projects_page{
+  background-color: rgb(2,5,23);
+}
+img{
+  width: 350px;
+  height: 200px;
+  border-radius: 45px;
+  opacity: 50%;
+}
+h3{
+  color: rgb(46, 156, 202);
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+
+}
+
+.project_h3{
+  color: rgb(46, 156, 202);
+  text-align: center;
+  padding: 20px;
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+}
+.project_h4{
+  /* color: rgb(46, 156, 202); */
+  color: rgb(2,5,23);
+  text-align: center;
+  padding: 10px;
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+}
+p{
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+}
+.project_td{
+  /* background-color: white; */
+  background-color:rgb(46, 156, 202);
+  color: rgb(2,5,23);
+  padding:20px;
+  border-radius: 85px;
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+  border: 30px solid rgb(2,5,23);
+  text-align: center;
+}
+.button_p{
+  text-align: center;
+}
+.project_list{
+  display: inline;
+  padding:8px;
+  text-align: center;
+
+}
+h4,h5{
+  color: rgb(63,19,50);
+}
+.work_ul,.project_ul{
+  text-align: center;
+  color: rgb(63,19,50);
+  font-weight: bold;
+}
+.connect_img{
+  width: 430px;
+  height: 300px;
+  opacity: 90%;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact_page{
+  background-color: white;
+  padding: 40px;
+}
+.contact_p{
+  text-align: center;
+  color: rgb(2,5,23);
+  font-size: 20px;
+}
+.ane_email{
+  font-weight: bold;
+}
+.demo_btn,.code_btn{
+  margin:10px;
+  background-color: rgb(2,5,23);
+  color: rgb(230,121,67);
+  font-family: 'Tomorrow', Arial, Helvetica, sans-serif;
+  /* font-size: 10px; */
+}
+.demo_btn:hover,.code_btn:hover{
+  margin:10px;
+  background-color: rgb(63,19,50);
+  color: rgb(46, 156, 202);
+  font-family: 'Tomorrow', Arial, Helvetica, sans-serif;
+  /* font-size: 10px; */
+}
+
+.contact_btn{
+  margin:10px;
+  background-color: rgb(46, 156, 202);
+  color: rgb(2,5,23);
+  font-family: 'Tomorrow', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.contact_btn:hover{
+  margin:10px;
+  background-color: rgb(230,121,67);
+  color: rgb(2,5,23);
+  font-family: 'Tomorrow', Arial, Helvetica, sans-serif;
+  font-size: 30px;
 }

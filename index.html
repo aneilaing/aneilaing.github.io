@@ -3,188 +3,403 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Aneika BL</title>
+  <title>Aneika Blake-Laing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&family=Tomorrow:wght@500&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="mystyle.css">
-
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
 </head>
 <body>
-
+<div class="background_filter">
+<div class="my_front_page">
+<div class = "container mynav_bar" >
 <ul class="nav justify-content-end nav_color">
 
   <li class="nav-item">
-    <a class="nav-link" href="#">Home</a>
+    <a class="nav-link" href="#my_front_page">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">About</a>
+    <a class="nav-link" href="#about_div1">About</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Projects</a>
+    <a class="nav-link" href="#project_div">Projects</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Contact</a>
+    <a class="nav-link" href="#contact_div">Contact Me</a>
   </li>
 </ul>
+</div>
 
-<div class="my_full" >
+<div class="container my_full " >
+
 <h1 class="my_h1">
-  Hi. I'm <span style="color:rgb(230,121,67);">Aneika</span>
+  Hi, I'm <span style="color:rgb(230,121,67);">Aneika</span>
 </h1>
-<div class="my intro">
-<p class="intro_p">
-  <!-- I am a recent Software Engineering Technology graduate with over 5 years of IT experience in various roles.
-Currently, I work as a QA Analyst on an Agile project and I work with Technologies such as JIRA, Confluence, Webex, Microsoft Suite, SOAP UI, Oracle SQL.
-I have written software in multiple languages which include Python, C#, C++, C and Java. -->
-I am a recent Software Engineering graduate and I have written
-software in multiple languages which include
-<ul class="my_list">
-  <li class="my_list1">Python </li>
-  <li class="my_list1"> C# </li>
-  <li class="my_list1"> C++ </li>
-  <li class="my_list1">C </li>
-  <li class="my_list1">Java.</li>
-  <ul>
-</p>
-<button type="button" class="btn btn-primary">Projects</button>
+<p class="soft_eng">Recent Software Engineering Technology graduate <p>
+
+<!-- <button type="button" class="btn btn-primary project_btn">Projects</button> -->
+<a class="btn btn-primary project_btn" href=#project_div>Projects</a>
+<a class="btn btn-primary project_btn" href="Aneika_BlakeLaing_Resume.pdf" target="_blank">Resume</a>
 </div>
 
 </div>
+</div>
 
-<div class="about_div">
-<h2 class="about_h2">
-A Little Bit About Me
-</h2>
-<p>
-  My name is Aneika and I enjoy working with computers and learning new technologies.
-  I developed a love for programming while writing my first ever C program for an assignment while at Seneca in 2013.
-  Today, my love for programming and learning new technologies has never waned and I have written programs in various
-  languages including:
-  </p>
-  <ul>
-    <li>C# </li>
-      <li>C++</li>
-        <li>VB.NET </li>
-          <li>C</li>
-            <li>Python </li>
-              <li>Java </li>
-                <li>Javascript </li>
-                  <li> HTML</li>
-                    <li>CSS </li>
-  </ul>
-  <p>
-    Some Libraries and Frameworks I have worked with include:
-  </P>
-  <ul>
-    <li>.NET</li>
-      <li>jQuery</li>
-        <li>Express</li>
-          <li>Bootstrap</li>
-            <li>Django</li>
-              <li>CodeIgniter</li>
+
+<div class="about_div container" id="about_div1">
+  <div class="introduction_div">
+
+    <h2 class = "about_h2">
+      How I Got Here
+    </h2>
+    <table>
+      <tr>
+        <td>
+          <img src="road.jpg" alt="My Journey">
+        </td>
+        <td>
+    <p>
+      As a young girl, I never imagined myself in the field of IT. Now that I am here, I do not want to be anywhere else.
+      I have always liked math, but I figured that my calling was in the Accounting or Finance field. I was in the final year of studying for a
+      Bachelor's degree in Business when I was introduced briefly to the world of software development. I, then, decided to explore further, if given the chance.
+    </p>
+    <p>
+      Fast forward a few years and I started the Computer Engineering Technology Co-op program at Seneca College. I wrote my first program in C in my first year
+      and I finally found something that thing that I loved.
+    </p>
+    <p>
+      Throughout my studies, I have completed courses and projects in various programming languages such as:
+    </p>
+    <div class="pro_lang">
+    <ul>
+      <li>C# </li>
+        <li>C++</li>
+          <li>VB.NET </li>
+            <li>C</li>
+              <li>Python </li>
+                <li>Java </li>
+                  <li>Javascript </li>
+                    <li> HTML</li>
+                      <li>CSS </li>
     </ul>
-
+  </div>
+    <p>
+      Some Libraries and Frameworks I have worked with include:
+    </P>
+    <div class="pro_lang">
+    <ul>
+      <li>.NET</li>
+        <li>jQuery</li>
+          <li>Express</li>
+            <li>Bootstrap</li>
+              <li>Django</li>
+                <li>CodeIgniter</li>
+      </ul>
+    </div>
+  </td>
+  </tr>
+  </table>
 </div>
 
-
-<!-- <div>
-<h2>
-  Education
+<div class="education_div">
+<h2 class="about_h2">
+Education
 </h2>
+<table>
+  <tr>
+    <td>
+      <img src="mcmaster.jpg" alt="McMaster">
+    </td>
+    <td>
+<div class = "mcmaster">
+<h3>
+  McMaster University (May 2018 - April 2021)
+</h3>
+<h4>
+  BTech in Software Engineering Technology
+</h4>
+<h5>
+  Hamilton, ON
+</h5>
 <p>
-  Institution: McMaster University
-  Program: Software Engineering Technology Co-op
-  Graduation: Spring 2021
-  Related Courses:
+  McMaster further expanded my view into the world of software developement. I acquired more of the tools that I need to become
+  a better software developer. Before attending McMaster, I knew how to write code and while that is a good thing, there are techniques and tools
+  that aid with writing even better and faster code. </p>
+  <p>
 
 </p>
-<p>
-  Institution: Seneca College
-  Program: Computer Engineering Technology Co-op
-  Graduation: Spring 2016
-  Related Courses:
-</p>
-</div> -->
-
-<div>
-  <h2>
-  Samples
-</h2>
-<div>
+</div>
+</td>
+</tr>
+<tr>
+  <td>
+    <img src="seneca.jpg" alt="Seneca">
+  </td>
+  <td>
+<div class = "seneca">
   <h3>
-    C#
+    Seneca College (January 2013 - April 2016)
   </h3>
   <h4>
+    Diploma in Computer Engineering Technology
+  </h4>
+  <h5>
+    Toronto, ON
+  </h5>
+  <p>
+    Seneca presented a deep dive into the world of computers; both from a hardware and software perspective. I found it very challening at first,
+    but I soon came to learn about and take advantage of wide a variety of resources available to me in the form of online videos, classmates, office hours, tutoring.
+  </p>
+  <p>
+    I fell in love with programming, learning new technologies, and working with computers on a whole.
+  </p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="experience_div">
+<h2 class="about_h2">
+Experience
+</h2>
+<table>
+  <tr>
+    <td>
+      <img src="miipe.jpg" alt="My Journey">
+    </td>
+    <td>
+<div class = "miipe">
+<h3>
+  Miipe Quality Solutions Inc. (March 2018 - present)
+</h3>
+<h4>
+  Senior Analyst
+</h4>
+<h5>
+  Concord, ON
+</h5>
+<p>
+Leverage analytical and problem-solving skills to develop and execute test cases for both Agile and Waterfall software projects in the telecommunications as well as retail industries.
+Utilize strong organizational skills and keen attention to details to log defects and follow up to resolution. Prepare and present reports based on testing progress and results.
+</P>
+<p>
+  <ul class="work_ul">
+  <li class="project_list">Oracle SQL </li>
+  <li class="project_list">JIRA </li>
+  <li class="project_list">Confluence </li>
+  <li class="project_list">SOAP UI </li>
+</ul>
+</P>
+</div>
+</td>
+</tr>
+<tr>
+  <td>
+    <img src="cineplex.jpg" alt="My Journey" width="500" height="333">
+  </td>
+  <td>
+<div class = "cineplex">
+<h3>
+  Cineplex Entertainment (May 2016 - March 2018)
+</h3>
+<h4>
+  Analyst, Call and Monitoring Centre
+</h4>
+<h5>
+  Toronto, ON
+</h5>
+<p>
+Worked in a high-pressure environment to investigate and resolve software and hardware issues reported by users via telephone, email, or in-person.
+Consistently provided excellent customer service to end users, making use of analytical, problem solving, troubleshooting and written and verbal communcation skills.
+</P>
+<p >
+<ul class="work_ul">
+<li class="project_list">VNC </li>
+<li class="project_list">Microsoft Dynamics 365 </li>
+<li class="project_list">Putty</li>
+<li class="project_list">Citrix</li>
+<li class="project_list">Powershell</li>
+</ul>
+</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="projects_page" id="project_div">
+<div class="my_projects container">
+  <h2 class="projects_h2">
+  Projects
+</h2>
+<div>
+  <h3 class="project_h3">
+    C#
+  </h3>
+  <table>
+    <tr>
+      <td class="project_td">
+        <h4 class="project_h4">
     Banking Calculator App
   </h4>
   <p>
     This is an App for Windows phone that is used to calculate loan payments and interest.
-    A quick demo of the application can be found here.
-    The code is hosted on GitHub and can be found here.
+    <ul class="project_ul">
+    <li class="project_list">C# </li>
+    <li class="project_list">Delegates </li>
+    <li class="project_list">Abstract Classes </li>
+    <li class="project_list">Interfaces </li>
+
+  </ul>
   </p>
-  <h4>
+  <p class = "button_p">
+  <a class="btn btn-primary demo_btn" href=#>Demo</a>
+  <a class="btn btn-primary code_btn" href="https://github.com/aneilaing/Banking-Calculator-App" target="_blank">Code</a>
+</p>
+</td>
+<td class="project_td">
+  <h4 class="project_h4">
     Parallel Merge Sort
   </h4>
   <p>
     This is a small application that reads in a list of 10,000 names from a text file and then sorts
     it using the merge sort algorithm. It runs the sort sequentially and in parallel and displays the sorting time for
     both.
-    A quick demo of the application can be found here.
-    The code is hosted on GitHub and can be found here.
-  </p>
+    <ul class="project_ul">
+    <li class="project_list">C# </li>
+    <li class="project_list">Parallel.Invoke </li>
+  </ul>
+      </p>
+      <p class = "button_p">
+      <a class="btn btn-primary demo_btn" href=#>Demo</a>
+      <a class="btn btn-primary code_btn" href=#>Code</a>
+    </p>
+</td>
+</tr>
+</table>
 </div>
 <div>
-  <h3>
+  <h3 class="project_h3">
     Python
   </h3>
-  <h4>
+  <table>
+    <tr>
+      <td class="project_td">
+  <h4 class="project_h4">
     Ffollow
   </h4>
   <p>
     This application is used by students to give feedback to instructors about the lesson. The students turna dial to
     indicate whether they are bored or anxious or if the pace of the lesson is acceptable and the instructor will see a
     graph on their end with the results.
-    A quick demo of the application can be found here.
-    The code is hosted on GitHub and can be found here.
+    <ul class="project_ul">
+    <li class="project_list">Python</li>
+    <li class="project_list">Django </li>
+    <li class="project_list">MySQL </li>
+    <li class="project_list">Google Charts API </li>
+    <li class="project_list">Websocket </li>
+    <li class="project_list">Redis Labs </li>
+  </ul>
   </p>
-  <h4>
+  <p class = "button_p">
+  <a class="btn btn-primary demo_btn" href=#>Demo</a>
+  <a class="btn btn-primary code_btn" href=#>Code</a>
+</p>
+</td>
+<td class="project_td">
+  <h4 class="project_h4">
     K Nearest Neighbours (KNN) Classification
   </h4>
   <p>
     This is a script that reads in data from text files, trains the data, and then predicts the class for other sets of
     test data using the KNN Classification algorithm.
-    The code is hosted on GitHub and can be found here.
+    <ul class="project_ul">
+    <li class="project_list">Python</li>
+    <li class="project_list">KNN Classification Algorithm </li>
+  </ul>
+    </p>
+    <p class = "button_p">
+    <a class="btn btn-primary demo_btn" href=#>Demo</a>
+    <a class="btn btn-primary code_btn" href=#>Code</a>
   </p>
+</td>
+</tr>
+</table>
 </div>
 <div>
-  <h3>
+  <h3 class="project_h3">
     Other
   </h3>
-  <h4>
+  <table>
+    <tr>
+      <td class="project_td">
+  <h4 class="project_h4">
     BFrendr
   </h4>
   <p>
     BFrendr is an application that assists people with finding friends. The user will log in and create a profile, add
     their interests, hobbies, traits and they will get a list of other users with similar interests that they can
-    connect with. They cam also message the other user directly from the BFrendr app.
-    A quick demo of the application can be found here.
-    The code is hosted on GitHub and can be found here.
+    connect with. They can also message the other user directly from the BFrendr app.
+    <ul class="project_ul">
+    <li class="project_list">PHP</li>
+    <li class="project_list">CodeIgniter </li>
+    <li class="project_list">MySQL </li>
+    <li class="project_list">Websocket </li>
+  </ul>
   </p>
-
-  <h4>
+  <p class = "button_p">
+  <a class="btn btn-primary demo_btn" href=#>Demo</a>
+  <a class="btn btn-primary code_btn" href=#>Code</a>
+</p>
+</td>
+<td class="project_td">
+  <h4 class="project_h4">
     App Locate
   </h4>
   <p>
     This is web application that uses Bing Maps to locate the user as well as hospitals, schools, fire stations, and
     waterfalls in the Hamilton area. The user is able to click a button to indicate the type of location that they want
     the results are displayed using pushpins on a map.
-
-    A quick demo of the application can be found here.
-    The code is hosted on GitHub and can be found here.
+    <ul class="project_ul">
+    <li class="project_list">JQuery</li>
+    <li class="project_list">Bing Maps </li>
+  </ul>
   </p>
-
+  <p class = "button_p">
+  <a class="btn btn-primary demo_btn" href=#>Demo</a>
+  <a class="btn btn-primary code_btn" href=#>Code</a>
+</p>
+</td>
+</tr>
+</table>
 
 </div>
+</div>
+</div>
+<div class="contact_page container" id="contact_div">
+  <h2 class="contact_h2">
+  Contact Me
+</h2>
+<p>
+  <img class="connect_img" src="connect.png" alt="Shake Hands">
+</p>
+<p class="contact_p">
+  Hi! Let's connect. A great way to connect is via email at <span class="ane_email">aneika.laing@gmail.com</span>.
+</p>
+<p class="contact_p">
+  <a class="btn btn-primary contact_btn" href="mailto: aneika.laing@gmail.com">Email</a>
+  <a class="btn btn-primary contact_btn" href="https://www.linkedin.com/in/aneikalaing" target="_blank">LinkedIn</a>
+  <a class="btn btn-primary contact_btn" href="https://github.com/aneilaing/" target="_blank">GitHub</a>
+  <a class="btn btn-primary contact_btn" href="Aneika_BlakeLaing_Resume.pdf" target="_blank">Resume</a>
+
+</p>
+
 </div>
 
 </body>
