@@ -1,0 +1,113 @@
+@media only screen and (max-width: 600px) {
+  /* body {
+    background-color: lightblue;
+  } */
+
+  .background_filter{
+    height:100vh;
+    width:100%;
+    background: none;
+    background-image: url('anei_pic_edited4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-image: url('anei_pic_edited3.jpg');
+    background-size: cover; */
+  }
+.my_front_page{
+
+  /* height:100vh;
+
+  opacity:0.5;
+  z-index: 0; */
+
+}
+.about_div{
+    width:100%;
+    /* background-color: yellow; */
+}
+
+
+.projects_page{
+  width:100%;
+  /* background-color: pink; */
+}
+.contact_page{
+  width:100%;
+}
+img{
+  /* width: 50%;
+  height: 40%;
+  border-radius: 15px;
+  opacity: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  display: none;
+}
+td{
+  width: 100%;
+  float: left;
+  vertical-align: top
+}
+.connect_img{
+  width: 75%;
+  height:50%;
+
+}
+.nav-link{
+  font-size: 15px;
+}
+.mynav_bar{
+  padding: 5px;
+}
+.my_h1{
+  font-size: 38px;
+  text-align: center;
+  padding: 5px;
+}
+.my_full{
+  /* background-color: white; */
+  float: left;
+  position: absolute;
+  top: 26%;
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 90vw;
+  padding: 5px;
+
+}
+.soft_eng{
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(46, 156, 202);
+}
+.project_btn{
+margin:5px;
+font-size: 15px;
+}
+.about_h2,.projects_h2,.contact_h2{
+  font-size: 34px;
+}
+h3{
+  font-size: 26px;
+}
+h4{
+  font-size: 20px;
+}
+h5{
+  font-size: 15px;
+}
+table, th, td {
+  padding: 5px;
+}
+.contact_btn{
+  margin: 5px;
+  background-color: rgb(46, 156, 202);
+  color: rgb(2,5,23);
+  font-family: 'Tomorrow', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
+}
